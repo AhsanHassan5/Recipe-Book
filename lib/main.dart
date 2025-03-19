@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
           page: () => const RecipePage(),
         )
       ],
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       home: initialPage,
     );
   }
